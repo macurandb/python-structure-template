@@ -3,12 +3,24 @@ This project is designed to provide a robust and standard structure for Python p
 
 ## Requirements
 
-- [Python](https://www.python.org/downloads/)
-- [Poetry](https://python-poetry.org/docs/#installation) - For dependency management and virtual environments.
-- [Make](https://www.gnu.org/software/make/) - Tool for executing tasks defined in the Makefile.
-- [Tox](https://tox.readthedocs.io/en/latest/) - For running tests across multiple environments.
-- [Sphinx](https://www.sphinx-doc.org/en/master/) - For generating project documentation.
-- [Pylint](https://pylint.pycqa.org/en/latest/) - For code quality and style checking.
+## Requirements
+
+This project leverages several tools and libraries to maintain code quality, enforce standards, and simplify the development process. Below are the key tools used in this project:
+
+- **[Python](https://www.python.org/downloads/)**: The programming language used for this project.
+- **[Poetry](https://python-poetry.org/docs/#installation)**: Manages dependencies and virtual environments, ensuring consistency across different development setups.
+- **[Make](https://www.gnu.org/software/make/)**: Automates tasks defined in the Makefile.
+- **[Tox](https://tox.readthedocs.io/en/latest/)**: Automates testing in multiple environments, making it easy to ensure your code works across different Python versions.
+- **[Pytest](https://docs.pytest.org/en/stable/)**: A robust testing framework that simplifies writing and running tests.
+- **[Pytest-Sugar](https://pypi.org/project/pytest-sugar/)**: Enhances the pytest output for better readability, making it easier to see what tests are running and their results.
+- **[Pytest-Cov](https://pypi.org/project/pytest-cov/)**: Measures code coverage, helping ensure that your tests cover all aspects of your code.
+- **[Black](https://black.readthedocs.io/en/stable/)**: An uncompromising code formatter that enforces a consistent code style throughout the project.
+- **[Mypy](http://mypy-lang.org/)**: A static type checker for Python that ensures type correctness, helping catch errors early in the development process.
+- **[Isort](https://pycqa.github.io/isort/)**: Automatically sorts your imports to maintain a consistent order, which improves code readability.
+- **[Flake8](https://flake8.pycqa.org/en/latest/)**: Combines multiple linting tools to enforce coding standards and detect potential issues in your code.
+- **[Ruff](https://beta.ruff.rs/docs/)**: A fast Python linter that provides an alternative to Flake8, focusing on speed and efficiency.
+- **[Pylint](https://pylint.pycqa.org/en/latest/)**: A comprehensive linter that checks for errors, enforces a coding standard, and looks for code smells.
+
 
 
 ## Project Structure

@@ -20,6 +20,7 @@ lint: ## Run mypy and flake8 to check the code
 	poetry run mypy src tests
 	poetry run flake8 src tests
 	poetry run ruff check src tests
+	$(MAKE) pylint
 
 fmt: ## Run black to format the code
 	poetry run black src tests

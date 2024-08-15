@@ -2,11 +2,14 @@
 This project is designed to provide a robust and standard structure for Python projects, utilizing a Makefile to automate common tasks such as testing, dependency installation, code validation, and documentation generation.
 
 ## Requirements
-- Python
-- Poetry - For dependency management and virtual environments.
-- Make - Tool for executing tasks defined in the Makefile.
-- Tox - For running tests across multiple environments.
-- Sphinx - For generating project documentation.
+
+- [Python](https://www.python.org/downloads/)
+- [Poetry](https://python-poetry.org/docs/#installation) - For dependency management and virtual environments.
+- [Make](https://www.gnu.org/software/make/) - Tool for executing tasks defined in the Makefile.
+- [Tox](https://tox.readthedocs.io/en/latest/) - For running tests across multiple environments.
+- [Sphinx](https://www.sphinx-doc.org/en/master/) - For generating project documentation.
+- [Pylint](https://pylint.pycqa.org/en/latest/) - For code quality and style checking.
+
 
 ## Project Structure
 
@@ -26,15 +29,18 @@ This project is designed to provide a robust and standard structure for Python p
     The Makefile in this project is configured to handle various common tasks. Below is a description of each 
     available task:
 
-    Available Tasks
-       - test: Run tests using pytest.
-       - cov: Run tests and generate a coverage report using pytest-cov.
-       - install: Install dependencies and the package into a poetry-managed virtual environment.
-       - lint: Run mypy and flake8 to check code quality.
-       - fmt: Format code using black.
-       - test_envs: Run tests across multiple environments using tox.
-       - docs: Generate HTML documentation using Sphinx.
-    Running Tasks
+### Available Tasks
+
+- **`test`**: Run tests using `pytest`.
+- **`cov`**: Run tests and generate a coverage report using `pytest-cov`.
+- **`install`**: Install dependencies and the package into a `poetry`-managed virtual environment.
+- **`lint`**: Run `mypy`, `flake8`, `ruff`, and `pylint` to check code quality.
+- **`fmt`**: Format code using `black`.
+- **`pylint`**: Run `pylint` to check code quality and style.
+- **`test_envs`**: Run tests across multiple environments using `tox`.
+- **`docs`**: Generate HTML documentation using Sphinx.
+
+### Running Tasks
         To run any of the tasks defined in the Makefile, simply use the make command followed by the task name.
         For example, to run the tests, you can use:
 

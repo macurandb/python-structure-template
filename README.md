@@ -39,23 +39,21 @@ This project is designed to provide a robust and standard structure for Python p
         For example, to run the tests, you can use:
 
 ```bash
-Copy code
 make test
 ```
+
 ## Generating Documentation
   To generate the project documentation, use the docs target:
 
 ```bash
-Copy code
 make docs
 ```
     This will build the HTML documentation using Sphinx, placing the output in the docs/build/html directory.
 
 ## Help
     You can view a list of all available tasks with a brief description by using the command:
-```
-bash
-Copy code
+
+```bash
 make help
 ```
 
@@ -65,7 +63,6 @@ To set up the project and its dependencies, follow these steps:
 Clone the repository:
 
 ```bash
-Copy code
 git clone <repository_url>
 cd <repository_name>
 ```
@@ -73,7 +70,6 @@ cd <repository_name>
 ### Install the dependencies using poetry:
 
 ```bash
-Copy code
 make install
 ```
 

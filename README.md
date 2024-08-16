@@ -94,3 +94,13 @@ make install
 ### Contributing
 If you wish to contribute to this project, please ensure that you follow best practices for clean code and utilize the
 provided linting, formatting, and documentation tools.
+
+## Follow Me
+
+Stay connected and follow me on these platforms:
+
+- **GitHub**: [macurandb](https://github.com/macurandb/)
+- **LinkedIn**: [duany-baro-menendez](https://www.linkedin.com/in/duany-baro-menendez/)
+
+
+Feel free to reach out for collaborations, questions, or just to connect!
